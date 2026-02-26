@@ -12,12 +12,13 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
-    background-color: var(--black);
     color: var(--white);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     overflow-x: hidden;
     position: relative;
+    background: radial-gradient(circle at center, #001529 0%, #000000 100%);
+    background-attachment: fixed; /* O fundo não rola, dando um efeito de profundidade */
 }
 
 /* --- Animação de Fundo (Global) --- */
@@ -70,10 +71,15 @@ body {
     z-index: 0; opacity: 0.2; pointer-events: none;
 }
 
+/* --- Desktop (Aumentando de 160px para 200px) --- */
 .profile-container {
-    width: 160px; height: 160px; margin: 0 auto 30px;
-    border-radius: 50%; border: 4px solid var(--royal-yellow);
-    box-shadow: 0 0 30px var(--navy); overflow: hidden;
+    width: 175px;  /* Ajuste aqui */
+    height: 175px; /* Ajuste aqui */
+    margin: 0 auto 30px;
+    border-radius: 50%; 
+    border: 4px solid var(--royal-yellow);
+    box-shadow: 0 0 30px var(--navy); 
+    overflow: hidden;
     animation: floating 3s ease-in-out infinite;
 }
 
@@ -245,9 +251,9 @@ footer { background: #0a0a0a; padding: 60px 20px; text-align: center; border-top
     }
 
     .profile-container {
-        width: 130px; /* Redução estratégica para ganhar espaço vertical */
-        height: 130px;
-        margin-bottom: 15px;
+        width: 175px;  /* Ajuste aqui */
+        height: 175px; /* Ajuste aqui */
+        margin-bottom: 20px;
     }
 
     .cyber-title { 
