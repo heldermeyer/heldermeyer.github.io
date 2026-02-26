@@ -88,10 +88,30 @@ const content = {
         "exp-title": "Professional Journey",
         "skills-title": "Technical Skills",
         experiences: [
-            { role: "Data Analyst", company: "INFINITY SCHOOL", date: "Sep 2025 - Nov 2025", desc: "Focused on Data Engineering and process automation. Developed Python scripts using Selenium to automate repetitive tasks, achieving an 87% reduction in execution time (from 40 to 5 minutes). Managed MySQL database integrity via DBeaver, executing SQL queries for attendance validation and academic record maintenance. Built Flask applications to centralize data through Web Scraping and integrate information flows between financial and academic departments." },
-            { role: "Data Science Intern", company: "Continental", date: "Apr 2024 - Mar 2025", desc: "Internship focused on Data Science applied to industrial manufacturing. Developed Power BI dashboards and utilized Python and Excel for ETL processes, providing decision-making support based on industrial diagnostics. Performed SQL Server analysis to support CGMS and SAP EWM systems on the factory floor. Provided technical support for manufacturing systems in collaboration with international teams, utilizing English for technical communication." },
-            { role: "IT Support & Dev Intern", company: "Sesc Bahia", date: "May 2023 - Mar 2024", desc: "Multidisciplinary experience in IT Support and Software Development. Developed web applications using C# (ASP.NET Core), HTML, CSS, JavaScript, and SQL Server. Performed database modeling with Entity Framework and managed technical support for users, operating systems, and corporate systems." },
-            { role: "IT Designer & Financial Advisor", company: "Praxis - Jr. Company", date: "Jun 2022 - Dec 2022", desc: "Initial role as IT Designer and Financial Advisor. Developed web interfaces using HTML5, CSS3, and JavaScript, while receiving technical training in Git and Figma. In the finance department, I was responsible for financial planning and preparing administrative reports for the company's board." }
+            { 
+                role: "Data Analyst", 
+                company: "INFINITY SCHOOL", 
+                logo: "assets/images/infinityschool.jpeg",
+                date: "Sep 2025 - Nov 2025", 
+                desc: "Focused on Data Engineering and process automation. Developed Python scripts using Selenium to automate repetitive tasks, achieving an 87% reduction in execution time (from 40 to 5 minutes). Managed MySQL database integrity via DBeaver, executing SQL queries for attendance validation and academic record maintenance. Built Flask applications to centralize data through Web Scraping and integrate information flows between financial and academic departments." },
+            { 
+                role: "Data Science Intern", 
+                company: "Continental", 
+                logo: "assets/images/continental.jpeg",
+                date: "Apr 2024 - Mar 2025", 
+                desc: "Internship focused on Data Science applied to industrial manufacturing. Developed Power BI dashboards and utilized Python and Excel for ETL processes, providing decision-making support based on industrial diagnostics. Performed SQL Server analysis to support CGMS and SAP EWM systems on the factory floor. Provided technical support for manufacturing systems in collaboration with international teams, utilizing English for technical communication." },
+            { 
+                role: "IT Support & Dev Intern", 
+                company: "Sesc Bahia", 
+                logo: "assets/images/sesc.jpeg",
+                date: "May 2023 - Mar 2024", 
+                desc: "Multidisciplinary experience in IT Support and Software Development. Developed web applications using C# (ASP.NET Core), HTML, CSS, JavaScript, and SQL Server. Performed database modeling with Entity Framework and managed technical support for users, operating systems, and corporate systems." },
+            { 
+                role: "IT Designer & Financial Advisor", 
+                company: "Praxis - Jr. Company", 
+                logo: "assets/images/praxis.jpeg",
+                date: "Jun 2022 - Dec 2022", 
+                desc: "Initial role as IT Designer and Financial Advisor. Developed web interfaces using HTML5, CSS3, and JavaScript, while receiving technical training in Git and Figma. In the finance department, I was responsible for financial planning and preparing administrative reports for the company's board." }
         ],
         skillCategories: [
             {
