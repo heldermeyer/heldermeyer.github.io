@@ -13,25 +13,25 @@ const content = {
                 role: "Analista de Dados", 
                 company: "INFINITY SCHOOL - Visual Art Creative Center", 
                 date: "Set 2025 - Nov 2025", 
-                desc: "Desenvolvimento de scripts em Python (Selenium/Webdriver) para automação de tarefas repetitivas, reduzindo o tempo de execução de 40min para 5min (ganho de eficiência de 87%). Execução de queries em MySQL para manutenção de registros e validação de frequência. Desenvolvimento de aplicações em Flask para integração via APIs/Web Scraping." 
+                desc: "Atuação focada em Engenharia de Dados e Automação de processos internos. Desenvolvi scripts em Python com Selenium para automatizar tarefas repetitivas, alcançando uma redução de 87% no tempo de execução (de 40 para 5 minutos). Responsável pela manutenção de bancos de dados MySQL via DBeaver, realizando consultas SQL para validação de frequência e registros acadêmicos. Implementei aplicações em Flask para centralizar dados via Web Scraping e integrar fluxos entre os setores financeiro e acadêmico." 
             },
             { 
                 role: "Estagiário de Ciência de Dados", 
                 company: "Continental do Brasil Produtos Automotivos Ltda.", 
                 date: "Abr 2024 - Mar 2025", 
-                desc: "Criação de dashboards em Power BI com uso de Python e Excel na criação de ETLs. Análises em SQL Server para suporte à tomada de decisão baseada em diagnósticos industriais. Suporte técnico aos sistemas CGMS e SAP EWM no chão de fábrica." 
+                desc: "Estágio voltado à Ciência de Dados aplicada à manufatura industrial. Desenvolvi dashboards em Power BI e utilizei Python e Excel para a criação de processos ETL, fornecendo suporte à tomada de decisão baseada em diagnósticos industriais. Realizei análises em SQL Server para suportar os sistemas CGMS e SAP EWM no chão de fábrica. Atuei no suporte técnico de sistemas de manufatura em colaboração com times internacionais, utilizando o inglês para comunicação técnica." 
             },
             { 
-                role: "Estagiário de Suporte de TI e Dev ASP.NET", 
-                company: "Sesc - Administração Regional na Bahia", 
+                role: "Estagiário de Suporte de TI e Desenvolvedor ASP.NET", 
+                company: "Sesc Bahia", 
                 date: "Mai 2023 - Mar 2024", 
-                desc: "Desenvolvimento de aplicações web utilizando C# (ASP.NET Core), HTML, CSS, Javascript e SQL Server. Gestão de processos internos e suporte técnico a usuários." 
+                desc: "Experiência multidisciplinar em Suporte de TI e Desenvolvimento de Software. Desenvolvi aplicações web utilizando C# (ASP.NET Core), HTML, CSS, JavaScript e SQL Server. Realizei a modelagem de bancos de dados com Entity Framework e gerenciei o suporte técnico a usuários, sistemas operacionais e sistemas corporativos da unidade." 
             },
             { 
                 role: "Projetista de TI & Assessor Financeiro", 
                 company: "Praxis - Empresa Jr.", 
                 date: "Jun 2022 - Dez 2022", 
-                desc: "Desenvolvimento Web (HTML, CSS, JS). Responsável pelo Planejamento Financeiro e Relatório Administrativo Financeiro da empresa." 
+                desc: "Atuação inicial como Projetista de TI e Assessor Financeiro. Desenvolvi interfaces web utilizando HTML5, CSS3 e JavaScript, além de receber capacitação técnica em Git e Figma. Na área financeira, fui responsável pela elaboração do planejamento financeiro e pela redação de relatórios administrativos para a diretoria da empresa." 
             }
         ],
         skillCategories: [
@@ -74,10 +74,10 @@ const content = {
         "exp-title": "Professional Journey",
         "skills-title": "Technical Skills",
         experiences: [
-            { role: "Data Analyst", company: "INFINITY SCHOOL", date: "Sep 2025 - Nov 2025", desc: "Developed Python scripts (Selenium/Webdriver) for RPA, reducing execution time by 87%. Executed MySQL queries for record validation. Built Flask applications for API/Web Scraping integration." },
-            { role: "Data Science Intern", company: "Continental", date: "Apr 2024 - Mar 2025", desc: "Created Power BI dashboards using Python/Excel for ETL. SQL Server analysis for industrial decision support. Provided technical support for CGMS and SAP EWM." },
-            { role: "IT Support & Dev Intern", company: "Sesc Bahia", date: "May 2023 - Mar 2024", desc: "Web development using C# (ASP.NET Core), JS, and SQL Server. Internal process management and technical support." },
-            { role: "IT Designer & Financial Advisor", company: "Praxis - Jr. Company", date: "Jun 2022 - Dec 2022", desc: "Web development (HTML, CSS, JS). Responsible for financial planning and administrative reporting." }
+            { role: "Data Analyst", company: "INFINITY SCHOOL", date: "Sep 2025 - Nov 2025", desc: "Focused on Data Engineering and process automation. Developed Python scripts using Selenium to automate repetitive tasks, achieving an 87% reduction in execution time (from 40 to 5 minutes). Managed MySQL database integrity via DBeaver, executing SQL queries for attendance validation and academic record maintenance. Built Flask applications to centralize data through Web Scraping and integrate information flows between financial and academic departments." },
+            { role: "Data Science Intern", company: "Continental", date: "Apr 2024 - Mar 2025", desc: "Internship focused on Data Science applied to industrial manufacturing. Developed Power BI dashboards and utilized Python and Excel for ETL processes, providing decision-making support based on industrial diagnostics. Performed SQL Server analysis to support CGMS and SAP EWM systems on the factory floor. Provided technical support for manufacturing systems in collaboration with international teams, utilizing English for technical communication." },
+            { role: "IT Support & Dev Intern", company: "Sesc Bahia", date: "May 2023 - Mar 2024", desc: "Multidisciplinary experience in IT Support and Software Development. Developed web applications using C# (ASP.NET Core), HTML, CSS, JavaScript, and SQL Server. Performed database modeling with Entity Framework and managed technical support for users, operating systems, and corporate systems." },
+            { role: "IT Designer & Financial Advisor", company: "Praxis - Jr. Company", date: "Jun 2022 - Dec 2022", desc: "Initial role as IT Designer and Financial Advisor. Developed web interfaces using HTML5, CSS3, and JavaScript, while receiving technical training in Git and Figma. In the finance department, I was responsible for financial planning and preparing administrative reports for the company's board." }
         ],
         skillCategories: [
             {
