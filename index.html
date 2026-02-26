@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <title>Helder Meyer | Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="bg-animation"></div>
+
+    <nav class="apple-nav">
+        <div class="nav-container">
+            <a href="#home" class="logo">Helder Meyer</a>
+            <div class="nav-links">
+                <a href="#about" data-i18n="nav-about">Sobre</a>
+                <a href="#experience" data-i18n="nav-exp">Experiência</a>
+                <a href="#skills" data-i18n="nav-skills">Skills</a>
+                <div class="lang-switcher">
+                    <button onclick="setLanguage('pt')"><img src="https://flagcdn.com/w40/br.png" alt="PT"></button>
+                    <button onclick="setLanguage('en')"><img src="https://flagcdn.com/w40/us.png" alt="EN"></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <canvas id="matrixCanvas"></canvas>
+        <div class="hero-content">
+            <div class="profile-container">
+                <img src="assets/images/helder.jpeg" alt="Helder Meyer" class="profile-pic">
+            </div>
+            <h1 class="cyber-title">Helder Meyer</h1>
+            <h2 data-i18n="hero-tag">Data Engineer & Automation Analyst</h2>
+            
+            <a href="mailto:contato@heldermeyer.dev" class="btn-email">
+                <i data-lucide="mail"></i> Email
+            </a>
+            
+            <div class="hero-socials">
+                <a href="https://linkedin.com/in/helder-meyer" target="_blank" class="btn-social btn-linkedin">
+                    <i data-lucide="linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/HelderMeyer" target="_blank" class="btn-social btn-github">
+                    <i data-lucide="github"></i> GitHub
+                </a>
+                <button class="btn-social btn-discord" onclick="copyDiscord()">
+                    <img src="https://cdn.simpleicons.org/discord/white" width="18" alt="Discord"> Discord
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2 class="section-title" data-i18n="about-title">Quem sou eu</h2>
+        <div class="about-grid">
+            <p data-i18n="about-p">Engenheiro de Computação com experiência em análise de dados, automação de processos e desenvolvimento de software. Atuação no desenvolvimento de scripts em Python para integração entre sistemas e coleta automática de dados, com foco na otimização de fluxos de trabalho. Vivência na manipulação de bases de dados SQL Server e MySQL, atuando na estruturação de consultas e elaboração de dashboards em Power BI para monitoramento de indicadores operacionais.</p>
+            <div class="edu-card">
+                <h3 data-i18n="edu-title">Formação</h3>
+                <strong>Universidade Salvador</strong>
+                <p data-i18n="edu-course">Bacharelado em Engenharia de Computação</p>
+                <span style="font-size: 0.9rem; opacity: 0.7;">Jan 2021 - Dez 2025</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <h2 class="section-title" data-i18n="exp-title">Experiência Profissional</h2>
+        <div class="timeline" id="exp-list"></div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title" data-i18n="skills-title">Habilidades Técnicas</h2>
+        <div id="skills-container"></div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://linkedin.com/in/helder-meyer" target="_blank"><i data-lucide="linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/HelderMeyer" target="_blank"><i data-lucide="github"></i> GitHub</a>
+            <button class="discord-btn" onclick="copyDiscord()">
+                <img src="https://cdn.simpleicons.org/discord/white" width="20" alt="Discord"> Discord (meyerzera)
+            </button>
+        </div>
+        <p>&copy; 2026 Helder Meyer. Salvador, Bahia.</p>
+    </footer>
+
+    <script src="assets/javascript/script.js"></script>
+</body>
+</html>
