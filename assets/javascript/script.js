@@ -6,30 +6,34 @@ const content = {
         "about-p": "Engenheiro de Computação com experiência em análise de dados, automação de processos e desenvolvimento de software. Atuação no desenvolvimento de scripts em Python para integração entre sistemas e coleta automática de dados, com foco na otimização de fluxos de trabalho. Vivência na manipulação de bases de dados SQL Server e MySQL, atuando na estruturação de consultas e elaboração de dashboards em Power BI para monitoramento de indicadores operacionais.",
         "edu-title": "Formação",
         "edu-course": "Bacharelado em Engenharia de Computação",
-        "exp-title": "Jornada Profissional",
+        "exp-title": "Experiência Profissional",
         "skills-title": "Habilidades Técnicas",
         experiences: [
             { 
                 role: "Analista de Dados", 
                 company: "INFINITY SCHOOL - Visual Art Creative Center", 
+                logo: "assets/images/infinityschool.jpeg",
                 date: "Set 2025 - Nov 2025", 
                 desc: "Atuação focada em Engenharia de Dados e Automação de processos internos. Desenvolvi scripts em Python com Selenium para automatizar tarefas repetitivas, alcançando uma redução de 87% no tempo de execução (de 40 para 5 minutos). Responsável pela manutenção de bancos de dados MySQL via DBeaver, realizando consultas SQL para validação de frequência e registros acadêmicos. Implementei aplicações em Flask para centralizar dados via Web Scraping e integrar fluxos entre os setores financeiro e acadêmico." 
             },
             { 
                 role: "Estagiário de Ciência de Dados", 
                 company: "Continental do Brasil Produtos Automotivos Ltda.", 
+                logo: "assets/images/continental.jpeg",
                 date: "Abr 2024 - Mar 2025", 
                 desc: "Estágio voltado à Ciência de Dados aplicada à manufatura industrial. Desenvolvi dashboards em Power BI e utilizei Python e Excel para a criação de processos ETL, fornecendo suporte à tomada de decisão baseada em diagnósticos industriais. Realizei análises em SQL Server para suportar os sistemas CGMS e SAP EWM no chão de fábrica. Atuei no suporte técnico de sistemas de manufatura em colaboração com times internacionais, utilizando o inglês para comunicação técnica." 
             },
             { 
                 role: "Estagiário de Suporte de TI e Desenvolvedor ASP.NET", 
                 company: "Sesc Bahia", 
+                logo: "assets/images/sesc.jpeg",
                 date: "Mai 2023 - Mar 2024", 
                 desc: "Experiência multidisciplinar em Suporte de TI e Desenvolvimento de Software. Desenvolvi aplicações web utilizando C# (ASP.NET Core), HTML, CSS, JavaScript e SQL Server. Realizei a modelagem de bancos de dados com Entity Framework e gerenciei o suporte técnico a usuários, sistemas operacionais e sistemas corporativos da unidade." 
             },
             { 
                 role: "Projetista de TI & Assessor Financeiro", 
                 company: "Praxis - Empresa Jr.", 
+                logo: "assets/images/praxis.jpeg",
                 date: "Jun 2022 - Dez 2022", 
                 desc: "Atuação inicial como Projetista de TI e Assessor Financeiro. Desenvolvi interfaces web utilizando HTML5, CSS3 e JavaScript, além de receber capacitação técnica em Git e Figma. Na área financeira, fui responsável pela elaboração do planejamento financeiro e pela redação de relatórios administrativos para a diretoria da empresa." 
             }
@@ -38,28 +42,38 @@ const content = {
             {
                 name: "Linguagens e Tecnologias",
                 items: [
-                    { name: "Python", img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },
-                    { name: "SQL Server", img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" },
-                    { name: "MySQL", img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" },
-                    { name: "Flask", img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" }
+                    { name: "Python", img: "assets/images/logos/python.png" },
+                    { name: "HTML", img: "assets/images/logos/html.png" },
+                    { name: "CSS", img: "assets/images/logos/css.png" },
+                    { name: "Javascript", img: "assets/images/logos/javascript.png" },
+                    { name: "SQL Server", img: "assets/images/logos/sqlserver.png" },
+                    { name: "MySQL", img: "assets/images/logos/mysql.png" },
+                    { name: "Flask", img: "assets/images/logos/flask.png" },
+                    { name: "Selenium", img: "assets/images/logos/selenium.png" },
+                    { name: "RPA", img: "assets/images/logos/rpa.png" },
                 ]
             },
             {
                 name: "Dados & BI",
                 items: [
-                    { name: "ETL", img: "https://cdn-icons-png.flaticon.com/512/2730/2730452.png" },
-                    { name: "Power BI", img: "assets/images/powerbi.png" },
-                    { name: "Web Scraping", img: "https://cdn-icons-png.flaticon.com/512/2042/2042393.png" },
-                    { name: "Pandas", img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" }
+                    { name: "ETL", img: "assets/images/logos/etl.png" },
+                    { name: "Web Scraping", img: "assets/images/logos/webscraping.png" },
+                    { name: "Pandas", img: "assets/images/logos/pandas.svg" },
+                    { name: "Power BI", img: "assets/images/logos/powerbi.png" },
+                    { name: "Excel", img: "assets/images/logos/excel.png" },
+                    { name: "Microsoft Visio", img: "assets/images/logos/visio.png" }
                 ]
             },
             {
                 name: "Ferramentas",
                 items: [
-                    { name: "Git/GitHub", img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" },
-                    { name: "SAP EWM", img: "https://cdn.simpleicons.org/sap/white" },
-                    { name: "Linux", img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" },
-                    { name: "DBeaver", img: "https://cdn.simpleicons.org/dbeaver/white" }
+                    { name: "Git/GitHub", img: "assets/images/logos/github.png" },
+                    { name: "SAP EWM", img: "assets/images/logos/sap.png" },
+                    { name: "Windows", img: "assets/images/logos/windows.png" },
+                    { name: "Linux", img: "assets/images/logos/linux.png" },
+                    { name: "Visual Studio Code", img: "assets/images/logos/vscode.png" },
+                    { name: "DBeaver", img: "assets/images/logos/dbeaver.png" },
+                    { name: "SQL Server Management Studio", img: "assets/images/logos/ssms.png" }
                 ]
             }
         ]
@@ -83,28 +97,38 @@ const content = {
             {
                 name: "Languages and Technologies",
                 items: [
-                    { name: "Python", img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" },
-                    { name: "SQL Server", img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" },
-                    { name: "MySQL", img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" },
-                    { name: "Flask", img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" }
+                    { name: "Python", img: "assets/images/logos/python.png" },
+                    { name: "HTML", img: "assets/images/logos/html.png" },
+                    { name: "CSS", img: "assets/images/logos/css.png" },
+                    { name: "Javascript", img: "assets/images/logos/javascript.png" },
+                    { name: "SQL Server", img: "assets/images/logos/sqlserver.png" },
+                    { name: "MySQL", img: "assets/images/logos/mysql.png" },
+                    { name: "Flask", img: "assets/images/logos/flask.png" },
+                    { name: "Selenium", img: "assets/images/logos/selenium.png" },
+                    { name: "RPA", img: "assets/images/logos/rpa.png" },
                 ]
             },
             {
                 name: "Data & BI",
                 items: [
-                    { name: "ETL", img: "https://cdn-icons-png.flaticon.com/512/2730/2730452.png" },
-                    { name: "Power BI", img: "assets/images/powerbi.png" },
-                    { name: "Web Scraping", img: "https://cdn-icons-png.flaticon.com/512/2042/2042393.png" },
-                    { name: "Pandas", img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" }
+                    { name: "ETL", img: "assets/images/logos/etl.png" },
+                    { name: "Web Scraping", img: "assets/images/logos/webscraping.png" },
+                    { name: "Pandas", img: "assets/images/logos/pandas.svg" },
+                    { name: "Power BI", img: "assets/images/logos/powerbi.png" },
+                    { name: "Excel", img: "assets/images/logos/excel.png" },
+                    { name: "Microsoft Visio", img: "assets/images/logos/visio.png" }
                 ]
             },
             {
                 name: "Tools",
                 items: [
-                    { name: "Git/GitHub", img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" },
-                    { name: "SAP EWM", img: "https://cdn.simpleicons.org/sap/white" },
-                    { name: "Linux", img: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" },
-                    { name: "DBeaver", img: "https://cdn.simpleicons.org/dbeaver/white" }
+                    { name: "Git/GitHub", img: "assets/images/logos/github.png" },
+                    { name: "SAP EWM", img: "assets/images/logos/sap.png" },
+                    { name: "Windows", img: "assets/images/logos/windows.png" },
+                    { name: "Linux", img: "assets/images/logos/linux.png" },
+                    { name: "Visual Studio Code", img: "assets/images/logos/vscode.png" },
+                    { name: "DBeaver", img: "assets/images/logos/dbeaver.png" },
+                    { name: "SQL Server Management Studio", img: "assets/images/logos/ssms.png" }
                 ]
             }
         ]
@@ -122,15 +146,20 @@ function setLanguage(lang) {
 
     const expContainer = document.getElementById('exp-list');
     expContainer.innerHTML = data.experiences.map(exp => `
-        <div class="timeline-item">
-            <div class="exp-card">
-                <span class="date" style="font-size: 0.8rem; opacity: 0.7;">${exp.date}</span>
-                <h3>${exp.role}</h3>
-                <span class="company-name">${exp.company}</span>
-                <p>${exp.desc}</p>
+    <div class="timeline-item">
+        <div class="exp-card">
+            <div class="exp-header">
+                <img src="${exp.logo}" alt="${exp.company}" class="company-logo">
+                <div class="exp-info">
+                    <span class="date">${exp.date}</span>
+                    <h3>${exp.role}</h3>
+                    <span class="company-name">${exp.company}</span>
+                </div>
             </div>
+            <p>${exp.desc}</p>
         </div>
-    `).join('');
+    </div>
+`).join('');
 
     const skillContainer = document.getElementById('skills-container');
     skillContainer.innerHTML = data.skillCategories.map(cat => `

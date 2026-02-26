@@ -4,7 +4,7 @@
     --royal-yellow: #FFBD1B;
     --black: #000000;
     --white: #ffffff;
-    --grey-apple: #1d1d1f;
+    --grey-apple: #1d1d1fb0;
     --glass: rgba(0, 0, 128, 0.25);
     --transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -69,8 +69,6 @@ body {
     position: absolute; top: 0; left: 0; width: 100%; height: 100%;
     z-index: 0; opacity: 0.2; pointer-events: none;
 }
-
-.hero-content { position: relative; z-index: 1; }
 
 .profile-container {
     width: 160px; height: 160px; margin: 0 auto 30px;
@@ -176,15 +174,106 @@ footer { background: #0a0a0a; padding: 60px 20px; text-align: center; border-top
     100% { transform: translateY(0px); }
 }
 
-/* Responsividade */
+/* --- Hero Content Ajustado --- */
+.hero-content { 
+    position: relative; 
+    z-index: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Container que agrupa Logo + Títulos */
+.exp-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Estilo da Logo Quadrada */
+.company-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px; /* Bordas levemente arredondadas como no LinkedIn */
+    object-fit: cover;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: white; /* Garante visibilidade se a logo tiver transparência */
+    flex-shrink: 0; /* Impede a logo de amassar em telas menores */
+}
+
+.exp-info h3 {
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 4px;
+}
+
+.exp-info .date {
+    display: block;
+    margin-bottom: 4px;
+}
+
+/* --- Responsividade Refatorada --- */
 @media (max-width: 768px) {
+
+    .company-logo {
+        width: 50px;
+        height: 50px;
+    }
+    .exp-info h3 {
+        font-size: 1.1rem;
+    }
+
+    .hero {
+        height: auto; /* Permite que o fundo cresça se o conteúdo for grande */
+        min-height: 80vh; /* Garante que cubra a tela inteira */
+        padding: 80px 20px 40px; /* Dá espaço para a navbar no topo */
+    }
+
+    #about.section {
+        padding-top: 30px !important; /* Força a redução do espaço de entrada */
+    }
+
+    .hero-content {
+        padding-top: 20px; /* Afasta a foto da navbar */
+    }
+
+    .section {
+        padding: 40px 20px;
+    }
+
+    .profile-container {
+        width: 130px; /* Redução estratégica para ganhar espaço vertical */
+        height: 130px;
+        margin-bottom: 15px;
+    }
+
+    .cyber-title { 
+        font-size: 2.2rem; /* Menor para não empurrar o resto para baixo */
+        line-height: 1.1;
+    }
+
+    .hero h2 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .hero-socials {
+        gap: 10px; /* Compacta os botões sociais no mobile */
+    }
+
+    .btn-social {
+        padding: 8px 15px;
+        font-size: 0.8rem;
+    }
+
+    /* Manutenção das outras regras mobile */
     .about-grid { grid-template-columns: 1fr; }
-    
     .nav-links > a { display: none; }
-    
-    .cyber-title { font-size: 2.8rem; }
-    
     .timeline::before { left: 20px; }
     .timeline-item { width: 100%; padding-left: 50px !important; padding-right: 0 !important; left: 0 !important; transform: translateX(-20px) !important; }
+    .timeline-item.visible { opacity: 1; transform: translateX(0) !important; }
     .timeline-item::after { left: 10px !important; right: auto !important; }
 }
