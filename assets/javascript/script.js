@@ -214,49 +214,8 @@ function copyDiscord() {
     alert("Discord ID (meyerzera) copiado!");
 }
 
-function initMatrix() {
-    const canvas = document.getElementById('matrixCanvas');
-    if (!canvas) return;
-    const ctx = canvas.getContext('2d');
-    
-    canvas.width = window.innerWidth;
-    canvas.height = canvas.parentElement.offsetHeight;
-    
-    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789$+-*/=%""\'#&_(),.;:?!\\|{}<>[]^~'.split('');
-    const fontSize = 14;
-    const columns = canvas.width / fontSize;
-    const drops = Array.from({length: columns}).fill(1);
-    
-    setInterval(() => {
-        ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
-        ctx.fillRect(0, 0, canvas.width, canvas.height);
-        
-        ctx.fillStyle = 'rgba(255, 189, 27, 0.5)'; // Cor amarela do seu tema
-        ctx.font = fontSize + 'px monospace';
-        
-        drops.forEach((y, i) => {
-            const text = characters[Math.floor(Math.random() * characters.length)];
-            ctx.fillText(text, i * fontSize, y * fontSize);
-            
-            if (y * fontSize > canvas.height && Math.random() > 0.975) {
-                drops[i] = 0;
-            }
-            drops[i]++;
-        });
-    }, 50);
-}
-
-window.addEventListener('resize', () => {
-    const canvas = document.getElementById('matrixCanvas');
-    if(canvas) {
-        canvas.width = window.innerWidth;
-        canvas.height = canvas.parentElement.offsetHeight;
-    }
-});
-
 window.onload = () => {
     lucide.createIcons();
     const savedLang = localStorage.getItem('helder-lang') || 'pt';
     setLanguage(savedLang);
-    initMatrix();
 };
